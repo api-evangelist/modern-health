@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.joinmodernhealth.com/
+status_page:
+  url: https://status.joinmodernhealth.com/
+  provider: Admin Labs
+  components:
+  - Modern Health Application Services
+  - Modern Health Authentication Service
+  - Chat
+  incident_history_since: '2022-12'
+  notifications: email
+versioning: null
+deprecation: null
+sla: null
+notes: >-
+  Modern Health publishes no public developer API, so there is no API versioning
+  or deprecation policy. Operational transparency is limited to the public status
+  page (powered by Admin Labs) covering the member application, authentication
+  service, and chat.

@@ -1,0 +1,26 @@
+# Modern Health
+
+> Global mental health benefits platform employers offer to their workforce. The
+> Adaptive Care Model spans self-guided digital tools, 1:1 coaching, therapy and
+> counseling, group support Circles, and crisis care, matched to members through a
+> Stepped Care methodology. Care is delivered in 80+ languages across a proprietary
+> provider network spanning 200+ countries and territories. Modern Health does not
+> publish a public developer API.
+
+## Company
+- [Website](https://www.modernhealth.com/): Company homepage and product overview
+- [Blog](https://www.modernhealth.com/blog): Workplace mental health research, employer resources, strategy & ROI
+
+## Operational
+- [Status Page](https://status.joinmodernhealth.com/): System status (Admin Labs) — Application Services, Authentication Service, Chat
+- [Security](https://www.modernhealth.com/security): Security program and responsible disclosure (security@joinmodernhealth.com)
+- [Trust Center](https://security.joinmodernhealth.com/): Trust center and sub-processor list
+
+## Legal
+- [Privacy Notice](https://www.modernhealth.com/privacy): Privacy policy
+- [Terms of Use](https://www.modernhealth.com/terms-of-use): Terms of service
+- [HIPAA Notice](https://www.modernhealth.com/hipaa): HIPAA Notice of Privacy Practices
+
+## Notes
+- No public developer API, OpenAPI specification, SDKs, MCP server, or webhook surface was found as of 2026-07-20.
+- Member sign-in is at https://my.joinmodernhealth.com/ (single-page application).

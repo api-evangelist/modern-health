@@ -1,8 +1,18 @@
 aid: modern-health
 name: Modern Health
-description: Modern Health is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Modern Health is a global mental health benefits platform that employers offer
+  to their workforce, positioning itself as "the global standard in mental health"
+  with evidence-based, equitable care delivered worldwide. Its Adaptive Care Model
+  spans self-guided digital tools, 1:1 coaching, therapy and counseling, group
+  support Circles, and crisis care, matched to members through a Stepped Care
+  methodology. The platform serves employers, benefits consultants, health plans,
+  and providers, delivering care in 80+ languages across a proprietary provider
+  network spanning 200+ countries and territories. Modern Health does not publish
+  a public developer API; its surfaces are member and admin web/mobile applications,
+  a status page, and a security/trust program. This profile was surfaced as a
+  portfolio company of Battery Ventures and enriched with the company's real
+  operational, security, and legal surface.
 url: https://raw.githubusercontent.com/api-evangelist/modern-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,64 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mental Health
+- Healthcare
+- Employee Benefits
+- Wellness
+- Digital Health
+- HR Tech
+image: https://www.modernhealth.com/favicon.ico
 apis: []
+common:
+- type: TrustCenter
+  url: security/modern-health-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/modern-health-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/modern-health-domain-security.yml
+- type: Website
+  url: https://www.modernhealth.com/
+- type: Blog
+  url: https://www.modernhealth.com/blog
+- type: StatusPage
+  url: https://status.joinmodernhealth.com/
+- type: Security
+  url: https://www.modernhealth.com/security
+- type: PrivacyPolicy
+  url: https://www.modernhealth.com/privacy
+- type: TermsOfService
+  url: https://www.modernhealth.com/terms-of-use
+- type: Compliance
+  url: https://www.modernhealth.com/security
+- type: Login
+  url: https://my.joinmodernhealth.com/
+- type: Lifecycle
+  url: lifecycle/modern-health-lifecycle.yml
+- type: LLMsTxt
+  url: llms/modern-health-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
